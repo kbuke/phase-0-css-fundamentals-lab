@@ -3,3 +3,59 @@ body {
   height: 100%;
   margin: 0;
 }
+
+/*Update the header: Provide a property that aligns it in the center instead.*/
+h1 {
+  text-align: center;
+}
+
+/*Center our image*/
+img {
+  margin: auto;
+  display: block;
+}
+
+
+/*Center all nav links. Give all of the <a> tags within our navbar padding of 10px on their left and right sides. 
+In addition, change their background color to something of your choosing. We chose grey!*/
+nav a{
+  padding-left: 10px;
+  padding-right: 10px;  
+}
+nav {
+  text-align: center;
+  background: silver;
+}
+
+/*Shrink the font size of our image caption, and make it centered.*/
+figure figcaption{
+  font-size: 12px;
+  text-align: center;
+}
+
+/*Update the text block: centered our text
+Our image is about 900px wide, so let's give all our <p>s within #featured-property a hard width of 800px and center the text in there.*/
+#featured-property p{
+  width:800px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  }
+
+/*Make our #details section horizontal: The details section could go nicely as a footer to the page, 
+To do this, make each of the <div>s float to the left.
+Should have the same background color, centered text, and occupy 25% of the width of the bottom row*/
+#details div{
+  display: grid;
+  float: left;
+  background-color: red;
+  text-align: center;
+  width: 25%;
+}
+
+
+
+
+
+
+
